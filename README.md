@@ -73,7 +73,7 @@ Feel free to check the [issues page](https://github.com/Aquinasmoriasi/math-magi
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-- All the contributors whoe code was used
+- All the contributors whose code was used
 
 ## 📝 License
 
