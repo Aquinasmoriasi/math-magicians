@@ -31,13 +31,13 @@ tr:not(.last-row) {
   grid-template-columns: 2fr 1fr 1fr;
 }
 
-input[type = "button"] {
+input[type="button"] {
   padding: 15px 20px;
   width: 100%;
   border-radius: 0;
 }
 
-input[type = "text"]  {
+input[type="text"] {
   margin: auto;
   color: #fff;
   text-align: end;
@@ -49,7 +49,7 @@ input[type = "text"]  {
   background-color: rgb(161, 161, 161);
 }
 
-input[type = "text"]:focus {
+input[type="text"]:focus {
   outline: none;
 }
 
