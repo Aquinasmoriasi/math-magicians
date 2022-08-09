@@ -12,26 +12,47 @@
   align-items: center;
 }
 
-table {
-  border: 3px solid magenta;
-  box-sizing: border-box;
+form {
   width: 50%;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-end;
+}
+
+table {
+  width: 100%;
+}
+
+tr:not(.last-row) {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.last-row {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
 }
 
 input[type = "button"] {
-  background-color: orangered;
   padding: 15px 20px;
+  width: 100%;
+  border-radius: 0;
 }
 
 input[type = "text"]  {
+  margin: auto;
+  color: #fff;
   text-align: end;
   box-sizing: border-box;
-  border: 3px solid green;
-  width: 100%;
-  padding: 12px;
+  width: 99%;
+  margin-left: 0.5%;
+  border: none;
+  padding: 18px;
+  background-color: rgb(161, 161, 161);
+}
+
+input[type = "text"]:focus {
+  outline: none;
+}
+
+.last-column input {
+  background-color: rgb(255, 166, 0);
 }
