@@ -22,7 +22,7 @@ export default class Calculator extends React.Component {
     const { total, next } = this.state;
     return (
       <form action="#">
-        <input type="text" value={total || next || 0} />
+        <input type="text" value={total || next || 0} readOnly />
         <table>
           <tbody>
             <tr>
