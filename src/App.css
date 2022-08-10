@@ -37,7 +37,8 @@ input[type="button"] {
   border-radius: 0;
 }
 
-input[type="text"] {
+.output {
+  height: 40px;
   margin: auto;
   color: #fff;
   text-align: end;

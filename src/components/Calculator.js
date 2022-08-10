@@ -19,10 +19,13 @@ export default class Calculator extends React.Component {
   }
 
   render() {
-    const { total, next } = this.state;
+    const { total, next, operation } = this.state;
+
     return (
       <form action="#">
-        <input type="text" value={total || next || 0} readOnly />
+        <div className="output">
+          {!total && !next && !operation ? 0 : [total, operation, next]}
+        </div>
         <table>
           <tbody>
             <tr>
