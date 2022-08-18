@@ -56,11 +56,17 @@ git clone https://github.com/Aquinasmoriasi/math-magicians.git
 
 ## Authors
 
-👤 **Author**
+👤 **Aquinas Moriasi**
 
 - GitHub: [Aquinas Moriasi](https://github.com/Aquinasmoriasi)
 - Twitter: [@Aquinas747](twitter.com/aquinas747)
 - LinkedIn: [Aquinas Moriasi](https://www.linkedin.com/in/aquinas-moriasi/)
+
+👤 **Sharon Odhiambo**
+
+- GitHub: [Sharon Odhiambo](https://github.com/sharon-odhiambo)
+- Twitter: [@SharonVictor16](https://twitter.com/sharonvictor16)
+- LinkedIn: [Sharon Odhiambo](https://www.linkedin.com/in/sharon-odhiambo-4333a0163/)
 
 ## 🤝 Contributing
 

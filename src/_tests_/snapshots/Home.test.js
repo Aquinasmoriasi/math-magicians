@@ -3,7 +3,10 @@ import { render } from '@testing-library/react';
 import Home from '../../components/Home';
 
 describe('Home', () => {
-  test('renders Home component correctly', () => {
-    render(<Home />);
+  test('should match Home snapshot', () => {
+    const tree = render(
+      <Home />,
+    );
+    expect(tree).toMatchSnapshot();
   });
 });
