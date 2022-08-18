@@ -1,8 +1,4 @@
-import operate from '../operate';
-
-// describe('The function:', {
-
-// })
+import operate from '../logic/operate';
 
 describe('The function', () => {
   test('adds numbers', () => {
