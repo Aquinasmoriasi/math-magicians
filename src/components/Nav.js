@@ -7,9 +7,6 @@ import {
 import Home from './Home';
 import Quote from './Quote';
 import Calculator from './Calculator';
-import generator from '../functions/generator';
-
-const random = (quotes) => Math.floor(Math.random() * quotes.length);
 
 const Nav = () => (
   <>
@@ -18,7 +15,7 @@ const Nav = () => (
       <nav>
         <Link to="/">Home</Link>
         <Link to="/Calculator">Calculator</Link>
-        <Link to="/Quote" onClick={() => random(generator)}>Quote</Link>
+        <Link to="/Quote">Quote</Link>
       </nav>
     </header>
     <Routes>
