@@ -13,7 +13,7 @@
   - Linters
 
 ## Live Demo Link
-None
+[Live Demo Link](https://moriasi-mathmagicians.netlify.app/Calculator)
 
 ## Video Description 
 None
@@ -52,7 +52,7 @@ git clone https://github.com/Aquinasmoriasi/math-magicians.git
 - Input different values whose results are known to test out the functionality of the app.
 
 ### Deployment
-- None
+- The site is deployed at [https://moriasi-mathmagicians.netlify.app/Calculator](https://moriasi-mathmagicians.netlify.app/Calculator)
 
 ## Authors
 
