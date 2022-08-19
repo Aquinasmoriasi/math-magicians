@@ -20,8 +20,8 @@ const Nav = () => (
     </header>
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/Calculator" element={<Calculator />} />
-      <Route path="/Quote" element={<Quote />} />
+      <Route path="Calculator" element={<Calculator />} />
+      <Route path="Quote" element={<Quote />} />
     </Routes>
     <footer>
       <p>&copy;App by Moriasi</p>
